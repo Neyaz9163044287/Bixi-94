@@ -9,4 +9,9 @@ public class WebDriverUtils
 	{
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 	}
+	
+	public void qiut(WebDriver driver) 
+	{
+		driver.quit();
+	}
 }
